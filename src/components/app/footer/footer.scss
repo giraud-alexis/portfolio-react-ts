@@ -2,4 +2,19 @@
     background-color: rgb(25,10,44);
     color: white;
     height: 60px;
+    display: flex;
+    .contact-content {
+        margin-left: 58%;
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        &> .linkedin, .github, .gmail {
+            &> a {
+                &> img {
+                    width: 60%;
+                }
+            }
+        }
+    }
 }

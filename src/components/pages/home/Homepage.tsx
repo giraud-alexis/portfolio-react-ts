@@ -8,6 +8,7 @@ import artEsthetique from '../../../assets/img/art-esthetique.png'
 import sandrineCoiffure from '../../../assets/img/sandrine-coiffure.png'
 import projectFont from '../../../assets/img/apercu projet.png'
 import visite from '../../../assets/img/click.png'
+import profil from '../../../assets/img/profil2.jpg'
 import './homepage.scss';
 
 const Homepage = () => {
@@ -34,20 +35,18 @@ const Homepage = () => {
             <div className='presentation'>
                 <div className="presentation_intro">
                     <img id="bimoji" src={logo} alt="bitmoji" />
-                    <h2>
-                    Hello! I'm <b>Alexis Giraud</b>
-                    </h2>
-                    <h3>A developer who</h3>
-                    <h1>
+                    <h1>Hello! I'm <b>Alexis Giraud</b></h1>
+                    <h2>A developer who</h2>
+                    <h3>
                     craft elegant <b>solutions</b>
-                    </h1>
+                    </h3>
                     <h4>
                     to complex <b>problems</b>,
                     </h4>
                     <p>I bring digital visions to life with precision and creativity.</p>
                 </div>
                 <div className="présentation_description">
-                    <h2>I'm a Web Developer.|</h2>
+                    <h2>I'm a Web Developer.<b>|</b></h2>
                     <p className="description_school">
                     Currently, I'm a student at <i>O’clock</i> school,
                     <img id="oclock" src={oclock} alt="logo oclock" />
@@ -133,6 +132,10 @@ const Homepage = () => {
                     </div>
                 </div>
             </section>
+            <div className="contact-me">
+                <h2>Contact</h2>
+                <img src={profil} alt="profil" />
+            </div>
         </div>
     );
 };

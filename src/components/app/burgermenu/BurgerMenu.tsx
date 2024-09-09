@@ -29,9 +29,9 @@ const BurgerMenu: React.FC = () => {
                 <div className="line-3"></div>
             </div>
             <div className={`menu ${isOpen ? 'open' : ''}`}>
-                <a href="#home">Home</a>
-                <a href="#about">Projects</a>
-                <a href="#contact">About me</a>
+                <a href="/">Home</a>
+                <a href="/projects">Projects</a>
+                <a href="/about">About me</a>
             </div>
         </div>
     );

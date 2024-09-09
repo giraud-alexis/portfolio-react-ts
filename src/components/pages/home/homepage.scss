@@ -27,15 +27,13 @@
             }
             &> h1 {
                 position: absolute;
-                top: 22%;
-                left: 48%;
-                font-size: 0.7rem;
-                animation: fadeIn 1s ease-in-out 1.5s forwards;
+                top: 5%;
+                left: 37%;
+                font-size: 0.5rem;
+                color: #ffffff;
+                opacity: 0;
+                animation: fadeIn 1s ease-in-out 1s forwards;
                 &> b {
-                    border: 2px solid #ffffff;
-                    border-radius: 50%;
-                    padding: 4px 10px 4px 10px;
-                    display: inline-block;
                     color: #7127BA;
                     opacity: 1;
                     animation: fadeIn 1s ease-in-out 1s forwards;
@@ -43,33 +41,40 @@
             }
             &> h2 {
                 position: absolute;
-                top: 5%;
-                left: 41%;
-                font-size: 0.5rem;
-                color: #ffffff;
-                &> b {
-                    color: #7127BA;
-                    opacity: 1;
-                    animation: fadeIn 1s ease-in-out 1s forwards;
-                }
-            }
-            &> h3 {
-                position: absolute;
                 top: 14%;
                 left: 45%;
                 font-size: 0.5rem;
-                animation: fadeIn 1s ease-in-out 1s forwards;
+                opacity: 0;
+                animation: fadeIn 1s ease-in-out 1.5s forwards;
+            }
+            &> h3 {
+                position: absolute;
+                top: 22%;
+                left: 46%;
+                font-size: 0.7rem;
+                opacity: 0;
+                animation: fadeIn 1s ease-in-out 2s forwards;
+                &> b {
+                    border: 2px solid #ffffff;
+                    border-radius: 50%;
+                    padding: 4px 10px 4px 10px;
+                    display: inline-block;
+                    color: #7127BA;
+                    opacity: 0;
+                    animation: fadeIn 1s ease-in-out 2.3s forwards;
+                }
             }
             &> h4 {
                 position: absolute;
                 top: 40%;
-                left: 50%;
+                left: 49%;
                 font-size: 0.7rem;
-                animation: fadeIn 1s ease-in-out 2s forwards;
+                opacity: 0;
+                animation: fadeIn 1s ease-in-out 2.5s forwards;
                 &> b {
                     color: #7127BA;
-                    opacity: 1;
-                    animation: fadeIn 1s ease-in-out 1s forwards;
+                    opacity: 0;
+                    animation: fadeIn 1s ease-in-out 2.8s forwards;
                     border: 2px solid #ffffff;
                     border-radius: 50%;
                     padding: 4px 8px 4px 8px;
@@ -79,11 +84,16 @@
             &> p {
                 position: absolute;
                 top: 65%;
-                left: 52%;
+                left: 50%;
                 font-size: 0.4rem;
-                animation: fadeIn 1s ease-in-out 2.5s forwards;
+                opacity: 0;
+                animation: fadeIn 1s ease-in-out 3.5s forwards;
             }
         }
+        @keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+          }
         .présentation_description {
             position: relative;
             height: 200px;
@@ -92,7 +102,22 @@
                 font-size: 1.2rem;
                 top: 15%;
                 left: 20%;
+                &> b {
+                    animation: blink 1.2s ease-in-out;
+                    animation-iteration-count: 6;
+                }
             }
+            @keyframes blink {
+                0% {
+                  opacity: 1;
+                }
+                50% {
+                  opacity: 0;
+                }
+                100% {
+                  opacity: 1;
+                }
+              }
             .description_school {
                 font-family: preahvihear;
                 position: absolute;
@@ -246,6 +271,19 @@
                     }
                 }
             }
+        }
+    }
+    .contact-me {
+        display: flex;
+        flex-direction: column;
+        &> h2 {
+            margin: 15% auto;
+            text-align: center;
+        }
+        &> img {
+            border-radius: 50%;
+            margin: 5% auto;
+            width: 60%;
         }
     }
 }

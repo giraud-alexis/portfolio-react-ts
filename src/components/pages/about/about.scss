@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'preahvihear';
+    src: url('../../../assets/fonts/Preahvihear/Preahvihear-Regular.ttf');
+}
+
+.about-me {
+    min-height: 85vh;
+    background-color: rgb(17,7,31);
+    color: white;
+    .about-me_intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &> img {
+            margin-top: 15%;
+            height: 35vh;
+            border-radius: 50px;
+        }
+        &> h1 {
+            font-family: preahvihear;
+            margin: 5% auto;
+            font-size: 1.2rem;
+        }
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        &> h2 {
+            text-align: center;
+            font-family: preahvihear;
+            font-size: 0.9rem;
+        }
+        .contact-content {
+            margin: 10% 0;
+            display: flex;
+            justify-content: space-around;
+            &> .linkedin, .github, .gmail {
+                .link {
+                    display: none;
+                }
+            }
+        }
+    }
+    .cv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &> h2 {
+            text-align: center;
+            font-family: preahvihear;
+            font-size: 0.9rem;
+        }
+        &> h3 {
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        &> a {
+            text-decoration: none;
+            font-size: 1.3rem;
+            padding: 2%;
+            margin: 5% 0;
+            border-radius: 15px;
+            background: rgb(43, 17, 77);
+            color: white;
+        }
+    }
+}
