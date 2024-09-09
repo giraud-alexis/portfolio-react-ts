@@ -3,14 +3,14 @@
     color: white;
     height: 60px;
     .header-content {
-        &> img {
-            height: 50px;
-        }
         height: 60px;
         margin: 0 5%;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        &> img {
+            height: 50px;
+        }
 
     }
 }
