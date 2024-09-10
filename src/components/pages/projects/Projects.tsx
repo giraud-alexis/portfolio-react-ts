@@ -80,7 +80,7 @@ const Projects = () => {
                         </p>
                         <div className="click_left">
                             <img id="click" src={visite} alt="" />
-                            <a href="https://lart-esthetique.fr">
+                            <a href="https://pet-foster-connect.website">
                                 click here to visit website
                             </a>
                         </div>
@@ -101,7 +101,7 @@ const Projects = () => {
                         </p>
                         <div className="click_right">
                             <img id="click" src={visite} alt="" />
-                            <a href="https://sandrine-coiffure-domici-606ef.web.app/">
+                            <a href="https://musical-meme-lnvg7m3.pages.github.io/">
                                 click here to visit website
                             </a>
                         </div>
