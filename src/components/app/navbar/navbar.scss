@@ -1,0 +1,20 @@
+.navbar {
+    width: 30%;
+    &> nav {
+        display: flex;
+        justify-content: space-between;
+        &> ul {
+            width: 90%;
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            &> li {
+                margin: auto;
+                &> a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+}
