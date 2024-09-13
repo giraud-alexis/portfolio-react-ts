@@ -1,14 +1,14 @@
 import { useEffect, useRef } from 'react';
 
-import logo from '../../../assets/img/présentation.png'
-import oclock from '../../../assets/img/Oclock.png'
-import fleche from '../../../assets/img/fleches.png'
-import shema from '../../../assets/img/skills.png'
-import artEsthetique from '../../../assets/img/art-esthetique.png'
-import sandrineCoiffure from '../../../assets/img/sandrine-coiffure.png'
-import projectFont from '../../../assets/img/apercu projet.png'
-import visite from '../../../assets/img/click.png'
-import profil from '../../../assets/img/profil2.jpg'
+import logo from '../../../assets/img/présentation.png';
+import oclock from '../../../assets/img/Oclock.webp';
+import fleche from '../../../assets/img/fleches.png';
+import shema from '../../../assets/img/skills.png';
+import artEsthetique from '../../../assets/img/art-esthetique.png';
+import sandrineCoiffure from '../../../assets/img/sandrine-coiffure.webp';
+import projectFont from '../../../assets/img/apercu projet.png';
+import visite from '../../../assets/img/click.png';
+import profil from '../../../assets/img/profil2.webp';
 import './homepage.scss';
 
 const Homepage = () => {

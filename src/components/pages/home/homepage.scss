@@ -36,7 +36,7 @@
                 animation: fadeIn 1s ease-in-out 1s forwards;
                 transition: all 0.5s ease;
                 &> b {
-                    color: #7127BA;
+                    color: #803bc5;
                     opacity: 1;
                     animation: fadeIn 1s ease-in-out 1s forwards;
                 }
@@ -63,7 +63,7 @@
                     border-radius: 50%;
                     padding: 4px 10px 4px 10px;
                     display: inline-block;
-                    color: #7127BA;
+                    color: #803bc5;
                     opacity: 0;
                     animation: fadeIn 1s ease-in-out 2.3s forwards;
                 }
@@ -77,7 +77,7 @@
                 animation: fadeIn 1s ease-in-out 2.5s forwards;
                 transition: all 0.5s ease;
                 &> b {
-                    color: #7127BA;
+                    color: #803bc5;
                     opacity: 0;
                     animation: fadeIn 1s ease-in-out 2.8s forwards;
                     border: 2px solid #ffffff;
@@ -133,7 +133,7 @@
                 font-size: 0.5rem;
                 transition: all 0.5s ease;
                 &> i {
-                    color: #7c1130;
+                    color: #0ABDA2;
                 }
             }
             .about_me {
