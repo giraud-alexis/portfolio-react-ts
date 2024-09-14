@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /private/
 Allow: /
 
-Sitemap: https://ton-site-portfolio.com/sitemap.xml
+Sitemap: https://alexis-giraud.fr/sitemap.xml
