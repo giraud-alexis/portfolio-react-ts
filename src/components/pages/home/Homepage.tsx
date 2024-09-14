@@ -1,13 +1,13 @@
 import { useEffect, useRef } from 'react';
 
-import logo from '../../../assets/img/présentation.png';
+import logo from '../../../assets/img/présentation.webp';
 import oclock from '../../../assets/img/Oclock.webp';
-import fleche from '../../../assets/img/fleches.png';
-import shema from '../../../assets/img/skills.png';
-import artEsthetique from '../../../assets/img/art-esthetique.png';
+import fleche from '../../../assets/img/fleches.webp';
+import shema from '../../../assets/img/skills.webp';
+import artEsthetique from '../../../assets/img/art-esthetique.webp';
 import sandrineCoiffure from '../../../assets/img/sandrine-coiffure.webp';
-import projectFont from '../../../assets/img/apercu projet.png';
-import visite from '../../../assets/img/click.png';
+import projectFont from '../../../assets/img/apercu projet.webp';
+import visite from '../../../assets/img/click.webp';
 import profil from '../../../assets/img/profil2.webp';
 import './homepage.scss';
 

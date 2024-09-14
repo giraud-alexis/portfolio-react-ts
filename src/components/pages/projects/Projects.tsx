@@ -1,11 +1,11 @@
 
-import projectBackGround from '../../../assets/img/apercu projet.png';
-import visite from '../../../assets/img/click.png';
-import artEsthetique from '../../../assets/img/art-esthetique.png';
-import sandrineCoiffure from '../../../assets/img/sandrine-coiffure.png';
-import petfoster from '../../../assets/img/pet-foster-connect.png';
-import ofig from '../../../assets/img/ofig2.png';
-import odvizor from "../../../assets/img/trip O'dvisor.png";
+import projectBackGround from '../../../assets/img/apercu projet.webp';
+import visite from '../../../assets/img/click.webp';
+import artEsthetique from '../../../assets/img/art-esthetique.webp';
+import sandrineCoiffure from '../../../assets/img/sandrine-coiffure.webp';
+import petfoster from '../../../assets/img/pet-foster-connect.webp';
+import ofig from '../../../assets/img/ofig2.webp';
+import odvizor from "../../../assets/img/trip-O_dvisor.webp";
 import './projects.scss';
 
 const Projects = () => {

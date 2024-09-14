@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-import logo from '../../../assets/img/bitmoji.png'
+import logo from '../../../assets/img/bitmoji.webp'
 import BurgerMenu from '../burgermenu/BurgerMenu';
 import './header.scss';
 import Navbar from '../navbar/Navbar';

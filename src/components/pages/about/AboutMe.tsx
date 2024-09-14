@@ -1,8 +1,8 @@
 
-import profil from '../../../assets/img/profil.jpg';
-import linkedin from '../../../assets/img/linkedin.png';
-import github from '../../../assets/img/github.png';
-import gmail from '../../../assets/img/gmail.png';
+import profil from '../../../assets/img/profil.webp';
+import linkedin from '../../../assets/img/linkedin.webp';
+import github from '../../../assets/img/github.webp';
+import gmail from '../../../assets/img/gmail.webp';
 import cv from '../../../assets/doc/cv.pdf';
 import './about.scss'
 

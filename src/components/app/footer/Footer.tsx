@@ -1,7 +1,7 @@
 
-import linkedin from '../../../assets/img/linkedin.png';
-import github from '../../../assets/img/github.png';
-import gmail from '../../../assets/img/gmail.png';
+import linkedin from '../../../assets/img/linkedin.webp';
+import github from '../../../assets/img/github.webp';
+import gmail from '../../../assets/img/gmail.webp';
 import './footer.scss';
 
 const Footer = () => {

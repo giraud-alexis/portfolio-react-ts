@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
 import musique from '../../../assets/music/Emmetelle-Awake.mp3';
-import disc from '../../../assets/img/disc.png'
+import disc from '../../../assets/img/disc.webp'
 import './navbar.scss'
 
 const Navbar = () => {
